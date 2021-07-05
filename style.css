@@ -28,10 +28,11 @@ header {
 
 #logo {
     width: 50%;
-    font-size: 1.5rem;
-    color: aliceblue;
-    font-weight: 700;
-
+}
+#logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
 }
 
 .navItem {
@@ -598,8 +599,8 @@ footer{
     }
 
     header.v-header #logo {
-       left: -5rem;
-        top: 1.8%;
+       left: -7rem;
+        top: 6%;
     }
 
     header.sticky {
