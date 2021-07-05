@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="fabicon.png" type="image/gif" sizes="16x16">
+
+    <!-- for socialMedia icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>My Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">Logo</div>
+        <ul class="navItem">
+            <li><a class="items is-active" href="#home">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Home
+                </a>
+            </li>
+
+
+            <li><a class="items" href="#about">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    About</a></li>
+            <li><a class="items" href="#video">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Videos</a></li>
+            <li><a class="items" href="#contact">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Contact</a></li>
+        </ul>
+        <div id="toggle"></div>
+    </header>
+    <section id="home" class="section">
+        <div id="nameLogo">
+
+            <img src="logo.jpg" alt="">
+
+        </div>
+
+        <p> <span id="itemlist"></span></p>
+
+    </section>
+
+    <section id="about" class="section">
+        <div id="profile">
+            <img src="profile.jpeg" alt="profile">
+
+        </div>
+        <div id="desc">
+            <p> Dhiraj Kumar is young and passionate Python coder,who has a good command in
+                Python, HTML,CSS,C++,JavaScript. Also, he is a creative Web Designer. For more information, you can
+                contact me via mail and social media.</p>
+                <a href="#contact">
+                    <span>Contact Me</span>
+                    <span>Contact Me</span>
+                </a>
+        </div>
+    </section>
+    <section id="video" class="section">
+        <div class="carousel">
+            <button class="button previous" id="prev">
+                < </button>
+                    <div class="videos">
+                        <video controls width="12rem" height="2rem" id="vid1">
+                            <source src="Tu_Mile_Dil_Khile.mp4">
+                        </video>
+                        <video controls width="12rem" height="2rem" id="vid2">
+                            <source src="Teri_Mitti.mp4">
+                        </video>
+                        <video controls width="12rem" height="2rem" id="vid3">
+                            <source src="Lav_Kush.mp4">
+                        </video>
+                        <video controls width="12rem" height="2rem" id="vid4">
+                            <source src="Saare_Jaha_Se_Achcha.mp4">
+                        </video>
+                    </div>
+                    <button class="button next" id="next">></button>
+        </div>
+        <div class="corouselPoint">
+            <ul id="list_append">
+
+            </ul>
+    </section>
+
+    <section class="socialMedia" id="contact">
+        <ul class="sci">
+            <li data-text="Facebook" data-color="#1877f2">
+                <a href="https://www.facebook.com/profile.php?id=100006321704814" target="_blank" class="facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Instagram" data-color="#e4405f">
+                <a href="https://www.instagram.com/dheerprajapat/" target="_blank" class="instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Twitter" data-color="#1877f2">
+                <a href="https://twitter.com/DhirajK25721412" target="_blank" class="twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Gmail" data-color=" #D44638">
+                <a href="mailto:dheerprajapat84@gmail.com" target="_blank" class="gmail">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Github" data-color="gray">
+                <a href="https://github.com/dheerprajapat" target="_blank" class="github">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>
+            Copyright &copy; 2021 - www.dheerWeb.com - All Rights Reservered
+        </p>
+    </footer>
+</body>
+<!-- for SM -->
+<script src="vanilla-tilt.min.js"></script>
+<script src="index.js"></script>
+
+</html>
