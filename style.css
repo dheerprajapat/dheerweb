@@ -87,7 +87,7 @@ header.sticky .is-active{
 .navItem li a {
     position: relative;
     display: inline-block;
-    padding: 15px 26px;
+    padding: 10px 30px;
     color: #2196f3;
     text-transform: uppercase;
     text-decoration: none;
